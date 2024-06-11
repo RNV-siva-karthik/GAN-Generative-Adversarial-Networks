@@ -1,5 +1,5 @@
-One of the most prominent approach for Generative AI is the use of GAN's or Generative Adversarial Networks. 
-The architecture of a GAN is very intriguing, it consists of a generator and a discriminator, the job of a generator is to make an image from noise vector or latent vector and the discriminator is trained to distinguish the real and generated images. 
+One of the most prominent approach for **Generative AI** is the use of **GAN's** or **Generative Adversarial Networks**. 
+The architecture of a GAN is very intriguing, it consists of a **generator** and a **discriminator**, the job of a generator is to make an image from noise vector or latent vector and the discriminator is trained to distinguish the real and generated images. 
 Then the loss is computed and both the parts the generator and discriminator weights are finetuned (discriminator is trained first and it is not trainable while the generator is being trained).
 One extension to such an architecture is conditional GAN where it is tasked to generate images from a predefined condition in the form of a label, text embedding, etc... 
 💈 Making a random image from some random noise might not be the ideal use case. would it? but they require a lot of training. 
